@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
     } //End of onCreate
 
     @Override
-    protected void onDestroy(){
+    protected void onDestroy() {
         super.onDestroy();
         currentdata = getSharedPreferences("randInfo",MODE_PRIVATE);
         SharedPreferences.Editor editor = currentdata.edit();
